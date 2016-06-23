@@ -1,0 +1,24 @@
+
+body{
+  background-color: #000;
+  color:white;
+}
+#header-logo{
+  margin-right:50px;
+  color:green;
+  
+}
+#name
+{
+  padding-top:50px;
+  color:white;
+  font-family:robo,sans-serif;
+}
+
+<!-- 1.create static header 
+2.section wise fixing backgrnd pics
+3.writing on pics
+4.create row for 3 columns(.col-md-4) for services providing(second element after header pic)
+5.create modals for previous works(3rd element)
+6. b-image_alt: http://quelliercreative.com/wp-content/uploads/revslider/homepage/Michael-Quellier-Designer-Technology-Background.jpg
+  -->
