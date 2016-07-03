@@ -10,17 +10,18 @@
       <a class="navbar-brand" href="#"><i id="header-logo" class="fa fa-rub fa-2x"></i></a>
     </div>
   <ul class="nav navbar-nav">
-     <li><a href="#i-know" >What I Know</a></li>
+     
     
     <li class="active"><a href="#">Home</a></li>
-    <li><a href="#my-work" >My work</a></li>
+    <li><a href="#above-i-know" >What I Know</a></li>
+    <li><a href="#above-my-work" >My work</a></li>
    
-    <li><a href="#about-me" >About Me</a></li>
+    <li><a href="#above-about-me" >About Me</a></li>
     <li><a href="#contact-me" >Contact Me</a></li>
     </ul>
   </nav>
  
-  <div class="jumbotron text-center" style="background-image: url(http://thomas-ko.github.io/freecodecamp-redesign/assets/img/cover-green-brown.png); background-size:cover; opacity:0.7;">
+  <div id="jumbo-image" class="jumbotron text-center" style="background: url(http://thomas-ko.github.io/freecodecamp-redesign/assets/img/cover-green-brown.png) repeat; background-size:full; position:ceneter; opacity:0.7; ">
   <h1 id="name">Hi! I'm a Web Developer.</h1>
     <h2 style="color:rgb(255,255,255); font-family:robo,sans-serif">This is my portfolio</h2><br /><br /><br /><br /><br /><br /><br />
 
@@ -28,33 +29,41 @@
    <a href="http://www.github.com/kaushikpraveen" target="blank"><button class="btn btn-default"><i class="fa fa-github"></i></button></a>
      <a href="http://www.codepen.com/geekypraveen" target="blank"><button class="btn btn-default"><i class="fa fa-codepen"></i></button></a>
      <a href="http://www.twitter.com/geekypraveen" target="blank"><button class="btn btn-default"><i class="fa fa-twitter"></i></button></a>
-   </div><br /><br /><br />
+   </div><br /><br /><br /><br />
     </div>
-
+   
+<div id="above-about-me"><br />
  <div id="about-me" class="container">
    <h1  class="page-header text-center">About Me</h1>
    <div class="row">
-   <div class="col-xs-4">
-     <img id="my-image" class="img-responsive img-circle" src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10844157_1557523101156066_723613921_a.jpg">
+   <div class="col-sm-4 col-md-4"><br />
+     <img id="my-image" class="img-responsive img-circle" src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10844157_1557523101156066_723613921_a.jpg" style="opacity:0.5;">
     </div>
-     <div class="col-xs-6" style="border:5px solid; border-color:green; margin-left:80px;">
-     <p>I'm a Freelance Web Developer from past two years & pursuing a Btech Degree in Information Technology.
-        I'm very much interested in web development projects and love coding in HTML5, CSS3, Javascript and Python.
-        As a developer, I've handled few projects in the past such as website development, Android Application development and SEO services.</p>
-       <button class="btn btn-primary"></button>
-     
+     <div class="col-sm-6 col-md-6" style="border:5px solid; border-color:green; margin-left:80px;"></br />
+     <h1 class="text-center" style="color:green;"><i class="fa fa-user-secret" style="border:2px solid green; border-radius:50%; padding:7px;"></i></h1>
+     <p><i class="fa fa-asterisk" style="color:green;"></i> I'm a Freelance Web Developer for past two years & pursuing a Btech Degree in Information Technology.<br />
+       <i class="fa fa-asterisk" style="color:green;"></i> I'm very much interested in web development projects and love coding in HTML5, CSS3, Bootstrap, Javascript and Python.<br />
+  <i class="fa fa-asterisk" style="color:green;"></i> As a developer, I've handled few projects in the past such as website development, Android Application development and SEO services.</p>
+   <h3 style="color:green;"> Stalk Me - </h3>    
+<div id="buttons" class="text-center">
+  <a href="https://www.github.com/kaushikpraveen" target="blank"> <button class="btn btn-default"><i class="fa fa-github"> Fork Me </i></button></a>
+      <a href="https://www.twitter.com/geekypraveen" target="blank"><button class="btn btn-primary"><i class="fa fa-twitter"> Tweet Me </i></button></a>
+     <a href="http://www.codepen.io/geekypraveen" target="blank"><button class="btn btn-default"><i class="fa fa-codepen"> See my Pens</i></button></a>
+  </div><br />
       </div>
      
    </div>
  </div>
-   
+  </div>
+
+<div id="above-i-know"><br />   
 <div id="i-know" class="container">
 <h1  class="page-header text-center">What Do I Know?-</h1>
 <div class="row">
   <div class="col-xs-4 text-center ">
  <span class="glyphicon glyphicon-globe" style="font-size:80px; color:green;"></span> 
-    <h3 style="color:green; margin-bottom:40px;">Web Development</h3>
-    <ul>
+    <h3 style="color:green; margin-bottom:40px; padding-left:5px;" class="text-center"> Web Development</h3>
+    <ul class="text-center">
       <h4>HTML5</h4>
       <h4>CSS3</h4>
       <h4>Bootstrap</h4>
@@ -63,8 +72,8 @@
   <div class="col-xs-4 text-center">
      <span class="glyphicon glyphicon glyphicon-phone " style="font-size:80px; color:green;"></span> 
     <h3 style="color:green; margin-bottom:40px;">Android Development</h3>
-     <ul>
-      <h4>Javascript</h4>
+     <ul class="text-center">
+      <h4>PhoneGap</h4>
       <h4>Android Studio</h4>
       <h4>REST Services</h4>
      </ul>
@@ -80,33 +89,64 @@
   </div>
  </div> 
  </div>
+</div>
+  
+<div id="above-my-work"><br />   
  <div id="my-work" class="container">
   <h1  class="page-header text-center">My Previous Work</h1>
   <div class="row">
-   <div class="col-xs-4">
+    
+    <div class="col-sm-4 col-md-4">
+     
+        <a href="http://www.freedoctorhelpline.com" target="blank"><image class="img-responsive thumbnail" src="http://www.freedoctorhelpline.com/wp-content/uploads/2016/06/fdh-logo_retina.png" style="width:100%; height:200px;"></image>
+  <h3 class="text-center">FreeDoctorHelpline</h3></a>
+      </div>
+    
+   <div class="col-sm-4 col-md-4">
      
         <a href="playstickgames.com" target="blank"><image class="img-responsive thumbnail" src="http://cdn.web.horde.org/thumbnails/340x190/p/playstickgames.com.png"></image>
-  <h3>PlayStickGames</h3></a>
+  <h3 class="text-center">PlayStickGames</h3></a>
      
    </div>
 
    
-   <div class="col-xs-4">
+   <div class="col-sm-4 col-md-4">
     
          <a href="proyecto.co.in" target="blank"><image class="img-responsive thumbnail" src="http://proyecto.co.in/wp-content/uploads/2016/02/proyectoslide1.png"></image>
- <h3>Proyecto</h3></a>
+ <h3 class="text-center">Proyecto</h3></a>
+   </div>
+   </div><br />
+ <div class="row">
+     <div class="col-sm-4 col-md-4">
+          <a href="http://www.kaushikpraveen.github.io" target="blank"><image class="img-responsive thumbnail" src="http://www.siteprice.org/SiteThumbs/s/successinfinite.com.jpeg" style="width:100%;
+  height:200px;"></image>
+<h3 class="text-center">MyPorfolio</h3></a>
    </div>
    
-   <div class="col-xs-4">
-          <a href="successinfinite.com" target="blank"><image class="img-responsive thumbnail" src="http://www.siteprice.org/SiteThumbs/s/successinfinite.com.jpeg"></image>
-<h3>SuccessInfinite</h3></a>
+   <div class="col-sm-4 col-md-4">
+          <a href="https://github.com/kaushikpraveen/TributePage" target="blank"><image class="img-responsive thumbnail" src="http://www.siteprice.org/SiteThumbs/s/successinfinite.com.jpeg" style="width:100%;
+  height:200px;"></image>
+<h3 class="text-center">Tribute Page</h3></a>
    </div>
+   
+   <div class="col-sm-4 col-md-4">
+          <a href="http://www.successinfinite.com" target="blank"><image class="img-responsive thumbnail" src="http://www.siteprice.org/SiteThumbs/s/successinfinite.com.jpeg" style="width:100%;
+  height:200px;"></image>
+<h3 class="text-center">SuccessInfinite</h3></a>
+   </div>
+   
+   
   </div>
- </div> 
+   
+  </div> 
+</div>  
  
+<div id="above-contact-me">
   <div id="contact-me" class="container">
      <h1 class="page-header text-center">Contact Me</h1>
-    <form id="form">
+   <div class="row">
+     <div class="col-sm-6 col-md-6 ">
+  <div style="border:2px solid; padding:25px;"> <form id="form" >
     <div class="row">
       <h3 class="col-sm-4 text-left">Name</h3>
      <input type="text" class=" col-sm-5 col-md-6 form-control" placeholder="Your Name"></div><br />
@@ -115,12 +155,24 @@
      <input type="email" class=" col-sm-6 col-md-6 form-control" placeholder="Your Email-id"></div>
          <div class="row">
            <h3 class="col-sm-4 col-md-4 text-left">Message</h3>
-     <input type="text" class=" col-sm-6 col-md-6 form-control" placeholder="Your Name"></div><br />
+     <input type="text" class=" col-sm-6 col-md-6 form-control" placeholder="Your Message"></div><br />
       <a href="#"><button class="btn btn-block btn-primary">Submit</button></a>
-    
-      </form>
-
+    </form></div>
+  </div>
+     <div class="col-sm-5 col-md-5"><br /><br />
+     <img class="img img-responsive center-block" src="http://www.vanderpostphotography.com/wp-content/uploads/2014/09/Contact-me-II.png"><br /><br /><br /><br /><br />
+      <div class="row text-center">
+   <a href="http://www.github.com/kaushikpraveen" target="blank"><button class="btn btn-default" style="margin-right:5px;"><i class="fa fa-github"></i></button></a>
+     <a href="http://www.twitter.com/geekypraveen" target="blank"><button class="btn btn-primary" style="margin-right:5px;"><i class="fa fa-twitter"></i></button></a>
+        <a href="http://www.codepen.com/geekypraveen" target="blank"><button class="btn btn-default" style="margin-right:5px;"><i class="fa fa-codepen"></i></button></a>
+     
    </div>
-
-  </div> 
-  </body>
+    </div>
+     </div>
+  </div>
+ </div>
+</div> <br /><br />
+</body>
+<footer class="footer" style="background-color:#0d0d0d">
+ <h4 class="text-center"> Made with <i class="fa fa-heart-o text-danger"></i> by <a href="https://www.github.com/kaushikpraveen" target="_blank">Praveen Kaushik</a></h4>
+</footer>
