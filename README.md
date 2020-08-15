@@ -1,2 +1,2 @@
 # kaushikpraveen.github.io
-This is my personal Portfolio file consisting of details of all my previous works. Visit the site->  <a href="http://www.praveenkaushik.me" target="#">kaushikpraveen.github.io</a>
+This is my personal Portfolio file consisting of details of all my previous works. Visit the site->  <a href="http://www.kaushikpraveen.github.io" target="#">Praveen Kaushik</a>
